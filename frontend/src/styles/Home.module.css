@@ -1,0 +1,66 @@
+.homePage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.wordDisplay {
+    background-color: var(--backgroundDark);
+    color: var(--fontColorLight);
+    font-family: var(--displayFont);
+    font-size: var(--displayFontSize);
+}
+
+.wordForm {
+    color: var(--fontColorDark);
+    background-color: var(--backgroundLight);
+}
+
+
+/* PHONES */
+
+/* Styles for screens with a max-width of 768px (small screens) */
+@media (max-width: 768px) {
+    .homePage {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .panel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+        width: 100%;
+    }
+
+    .wordDisplay {
+        background-color: #595959;
+        color: var(--fontColorLight);
+        font-family: var(--displayFont);
+        order: 1;
+    }
+
+    .wordForm {
+        color: var(--fontColorDark);
+        background-color: #f2f2f2;
+        order: 2;
+
+    }
+
+}

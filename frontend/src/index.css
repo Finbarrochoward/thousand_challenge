@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --displayFont: 'Verdana', sans-serif;
+  --fontColorLight: white;
+  --fontColorDark: black;
+  --backgroundDark: #595959;
+  --backgroundLight: #f2f2f2;
+  --displayFontSize: 2rem;
 }
 
 code {
