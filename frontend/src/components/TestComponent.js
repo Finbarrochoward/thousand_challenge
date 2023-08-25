@@ -6,7 +6,7 @@ export default function TestComponent() {
 
     useEffect(() => {
         // Make a GET request when the component mounts
-        axios.get('http://127.0.0.1:5000/test')
+        axios.get('http://127.0.0.1:3000/getWord?personId=fskd')
             .then(response => setData(response.data))
             .catch(error => console.error('Error fetching data:', error));
     }, []);
