@@ -17,17 +17,11 @@ function Header() {
                             <Nav.Link href="#pricing">About</Nav.Link>
                         </Nav>
                         <Nav>
-                            <NavDropdown title="Languages" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">German</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
-                                    French
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">English</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">
-                                    Request a language
-                                </NavDropdown.Item>
-                            </NavDropdown>
+                            <Nav.Link href="#deets">Login</Nav.Link>
+                            <Nav.Link eventKey={2} href="#memes">
+                                Sign Up
+                            </Nav.Link>
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

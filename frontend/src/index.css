@@ -12,6 +12,8 @@ body {
   --backgroundDark: #595959;
   --backgroundLight: #f2f2f2;
   --displayFontSize: 2rem;
+  --correctColor: #00ff00;
+  --incorrectColor: #ff0000;
 }
 
 code {

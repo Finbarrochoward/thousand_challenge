@@ -3,12 +3,9 @@ import boto3
 from resources.words import get_random_word, check_answer
 
 # # connect to dynamodb client
-
-# session = boto3.Session(profile_name="ja")
-# dynamodb = session.resource("dynamodb", region_name="ap-southeast-2")
-# table = dynamodb.Table("german_words")
-table = "mock"
-
+# table = boto3.resource("dynamodb").Table("german_words")
+# insert some mock data
+table = "dummy"
 
 RESOURCE_MAP = {
     "/getWord": {

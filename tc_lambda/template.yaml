@@ -3,6 +3,14 @@ Transform: AWS::Serverless-2016-10-31
 Description: >
   sam-app
 
+Globals:
+    Api:
+        Cors:
+            AllowMethods: "'GET,POST,OPTIONS'"
+            AllowHeaders: "'content-type'"
+            AllowOrigin: "'*'"
+            # AllowCredentials: true  Uncomment only if you choose a specific origin instead of the * wildcard.
+
 Resources:
   TCRequestsFunction:
     Type: AWS::Serverless::Function 
@@ -17,11 +25,19 @@ Resources:
           Properties:
             Path: /getWord
             Method: get
+            Cors:
+              AllowMethods: "'GET,POST,OPTIONS'"
+              AllowHeaders: "'content-type'"
+              AllowOrigin: "'http://localhost:5001'"  # Replace with your frontend's origin
         CheckAnswer:
           Type: Api 
           Properties:
             Path: /checkAnswer
             Method: post
+            Cors:
+              AllowMethods: "'GET,POST,OPTIONS'"
+              AllowHeaders: "'content-type'"
+              AllowOrigin: "'http://localhost:5001'"  # Replace with your frontend's origin
 
 Outputs:
   TCApi:
