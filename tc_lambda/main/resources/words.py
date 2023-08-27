@@ -2,21 +2,23 @@ import boto3
 import random
 import json
 
-# def get_random_word(dynamodb_table):
-#     # get random word
-#     response = dynamodb_table.scan()
-#     random_word = random.choice(response["Items"])
-#     if random_word["gender"] is not None:
-#         response_obj = {
-#             "word": f"{random_word['gender']} {random_word['word']}",
-#             "translation": random_word["translation"],
-#         }
-#     else:
-#         response_obj = {
-#             "word": random_word["word"],
-#             "translation": random_word["translation"],
-#         }
-#     return response_obj
+
+def get_random_word(body, dynamodb_table):
+
+    # get random word
+    response = dynamodb_table.scan()
+    random_word = random.choice(response["Items"])
+    if random_word["gender"] is not None:
+        response_obj = {
+            "word": f"{random_word['gender']} {random_word['word']}",
+            "translation": random_word["translation"],
+        }
+    else:
+        response_obj = {
+            "word": random_word["word"],
+            "translation": random_word["translation"],
+        }
+    return response_obj
 
 
 def get_random_word(body, dynamodb_table):
