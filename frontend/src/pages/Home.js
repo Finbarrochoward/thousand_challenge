@@ -11,6 +11,7 @@ export default function Home() {
     const [answer, setAnswer] = useState('')
     const [isCorrect, setIsCorrect] = useState(false)
     const [isIncorrect, setIsIncorrect] = useState(false)
+    const [langueges, setLanguages] = useState({ 'wordForm': 'de', 'wordDisplay': 'en' })
 
     // Gets a word
     const getNewWord = () => {
@@ -66,9 +67,11 @@ export default function Home() {
 
 
     return (
-        <div className={styles.homePage}>
-            <WordForm setAnswer={setAnswer} handleSubmit={handleSubmit} handleChange={handleChange} answer={answer} isIncorrect={isIncorrect} />
-            <WordDisplay translation={data.translation} isCorrect={isCorrect} isIncorrect={isIncorrect} word={isIncorrect ? data.word : null} />
-        </div>
+        <>
+            <div className={styles.homePage}>
+                <WordForm setAnswer={setAnswer} handleSubmit={handleSubmit} handleChange={handleChange} answer={answer} isIncorrect={isIncorrect} />
+                <WordDisplay translation={data.translation} isCorrect={isCorrect} isIncorrect={isIncorrect} word={isIncorrect ? data.word : null} />
+            </div>
+        </>
     )
 }

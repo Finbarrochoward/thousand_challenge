@@ -18,3 +18,66 @@
     display: flex;
     align-items: center;
 }
+
+.langSelect {
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--fontColorLight);
+    font-family: var(--displayFont);
+    font-size: var(--displayFontSize);
+    transition: color 0.5s ease;
+    height: 100px;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+}
+
+.langForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 1;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* styles.css */
+.selectItem {
+    font-size: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 15vw;
+}
+
+.selectItem .dark {
+    color: var(--fontColorLight);
+    border: 1px solid var(--fontColorLight);
+}
+
+.selectItem .light {
+    color: var(--fontColorDark);
+    border: 1px solid var(--fontColorDark);
+}
+
+/* Style the arrow icon */
+.selectItem::-ms-expand {
+    display: none;
+}
+
+/* Optional: Apply focus styles */
+.selectItem:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+
+.fixedTop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
