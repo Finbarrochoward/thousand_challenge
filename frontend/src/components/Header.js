@@ -7,6 +7,7 @@ import LangSwitcher from './LangSwitcher';
 
 
 function Header() {
+
     return (
         <>
             <div className={styles.fixedTop}>

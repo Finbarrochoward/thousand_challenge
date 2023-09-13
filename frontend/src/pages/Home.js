@@ -11,14 +11,22 @@ export default function Home() {
     const [answer, setAnswer] = useState('')
     const [isCorrect, setIsCorrect] = useState(false)
     const [isIncorrect, setIsIncorrect] = useState(false)
-    const [langueges, setLanguages] = useState({ 'wordForm': 'de', 'wordDisplay': 'en' })
 
     // Gets a word
-    const getNewWord = () => {
-        axios.get('http://127.0.0.1:5000/getWord')
+    const getNewWord = (answerLang, questionLang) => {
+        const params = { 'answer_language': answerLang, 'question_language': questionLang }
+        axios.get('http://127.0.0.1:5000/getWord', { params })
             .then(response => setData(response.data))
             .catch(error => console.error('Error fetching data:', error));
     };
+
+    const getLangsFromURL = () => {
+        // Get data from the URL
+        const url = new URL(window.location.href);
+        const answerLang = url.searchParams.get('answerLang');
+        const questionLang = url.searchParams.get('questionLang');
+        return { answerLang, questionLang }
+    }
 
     // Sends post request to check answer
     // Response format is 
@@ -49,7 +57,8 @@ export default function Home() {
                 setTimeout(() => {
                     setIsCorrect(false);
                     setIsIncorrect(false);
-                    getNewWord();
+                    const { answerLang, questionLang } = getLangsFromURL();
+                    getNewWord(answerLang, questionLang);
                 }, 500);
             }
             setAnswer('');
@@ -62,7 +71,9 @@ export default function Home() {
     };
 
     useEffect(() => {
-        getNewWord()
+        // Get data from the URL
+        const { answerLang, questionLang } = getLangsFromURL();
+        getNewWord(answerLang, questionLang)
     }, []);
 
 
