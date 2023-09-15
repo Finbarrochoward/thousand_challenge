@@ -4,6 +4,7 @@ import WordDisplay from '../components/WordDisplay'
 import WordForm from '../components/WordForm'
 import styles from '../styles/Home.module.css'
 import axios from 'axios'
+import { UseSelector, useDispatch, useSelector } from 'react-redux'
 
 export default function Home() {
 
@@ -11,22 +12,21 @@ export default function Home() {
     const [answer, setAnswer] = useState('')
     const [isCorrect, setIsCorrect] = useState(false)
     const [isIncorrect, setIsIncorrect] = useState(false)
+    const langs = useSelector(state => state.lang)
+    const dispatch = useDispatch()
 
     // Gets a word
     const getNewWord = (answerLang, questionLang) => {
-        const params = { 'answer_language': answerLang, 'question_language': questionLang }
+        const params = { 'answer_language': langs.answerLang, 'question_language': langs.questionLang }
         axios.get('http://127.0.0.1:5000/getWord', { params })
             .then(response => setData(response.data))
             .catch(error => console.error('Error fetching data:', error));
     };
 
-    const getLangsFromURL = () => {
-        // Get data from the URL
-        const url = new URL(window.location.href);
-        const answerLang = url.searchParams.get('answerLang');
-        const questionLang = url.searchParams.get('questionLang');
-        return { answerLang, questionLang }
-    }
+    useEffect(() => {
+        getNewWord(langs.answerLang, langs.questionLang)
+    }, [langs.answerLang, langs.questionLang]);
+
 
     // Sends post request to check answer
     // Response format is 
@@ -57,8 +57,7 @@ export default function Home() {
                 setTimeout(() => {
                     setIsCorrect(false);
                     setIsIncorrect(false);
-                    const { answerLang, questionLang } = getLangsFromURL();
-                    getNewWord(answerLang, questionLang);
+                    getNewWord(langs.answerLang, langs.questionLang);
                 }, 500);
             }
             setAnswer('');
@@ -69,13 +68,6 @@ export default function Home() {
     const handleChange = (event) => {
         setAnswer(event.target.value)
     };
-
-    useEffect(() => {
-        // Get data from the URL
-        const { answerLang, questionLang } = getLangsFromURL();
-        getNewWord(answerLang, questionLang)
-    }, []);
-
 
     return (
         <>

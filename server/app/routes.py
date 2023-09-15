@@ -14,8 +14,10 @@ dynamodb = session.resource("dynamodb", region_name="ap-southeast-2")
 # word: translation and translation: word = true
 
 TABLE_MAP = {
-    "de_en": {"table_name": "german_words", "direction": False},
-    "en_de": {"table_name": "german_words", "direction": True},
+    "en_de": {"table_name": "german_words", "direction": False},
+    "de_en": {"table_name": "german_words", "direction": True},
+    "en_fr": {"table_name": "french_words", "direction": False},
+    "fr_en": {"table_name": "french_words", "direction": True},
 }
 # table = dynamodb.Table("german_words")
 
@@ -33,7 +35,36 @@ def check_answer():
     correct = False
     correctAnswer = body["correctAnswer"]
     print(body)
-    if body["givenAnswer"] == body["correctAnswer"]:
+
+    def is_correct(input, correct):
+        input = input.lower()
+        correct = correct.lower()
+        # check for leading a's and the's and remove them
+        if input.startswith("a "):
+            input = input[2:]
+        if input.startswith("the "):
+            input = input[4:]
+        if correct.startswith("a "):
+            correct = correct[2:]
+        if correct.startswith("the "):
+            correct = correct[4:]
+        # check for leading to's on verbs and remove them
+        if input.startswith("to "):
+            input = input[3:]
+        if correct.startswith("to "):
+            correct = correct[3:]
+
+        # for french, if le or la in answer, compare to indefinite article
+        if "le " in input or "la " in input:
+            article, noun = input.split(" ", 1)
+            if article == "le":
+                input = "un " + noun
+            elif article == "la":
+                input = "une " + noun
+
+        return input == correct
+
+    if is_correct(body["givenAnswer"], body["correctAnswer"]):
         correct = True
         correctAnswer = None
 
@@ -46,9 +77,10 @@ def get_random_word():
 
     # TODO: find a way to make this more extensible when more languages
     # Maybe a map?
-
+    print("YESS")
     answerLang = request.args.get("answer_language")
     questionLang = request.args.get("question_language")
+    print(f"{questionLang}_{answerLang}")
     table_name = TABLE_MAP[f"{questionLang}_{answerLang}"]["table_name"]
     direction = TABLE_MAP[f"{questionLang}_{answerLang}"]["direction"]
     table = dynamodb.Table(table_name)
@@ -66,6 +98,7 @@ def get_random_word():
 
     if direction:
         # if swapping langs
+        print("swapping")
         temp = word
         word = translation
         translation = temp

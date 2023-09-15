@@ -1,0 +1,1001 @@
+rank,word,translation,gender
+1,un,a,
+2,à,to,
+3,en,in,
+4,le,the,
+5,et,and,
+6,être,to be,
+7,de,of,
+8,avoir,to have,
+9,que,that,
+10,ne,not ,
+11,dans,in,
+12,ce,this,
+13,il,he,
+14,qui,who,
+15,pas,not,
+16,pour,for,
+17,sur,on,
+18,se,oneself,
+19,son,his,
+20,plus,more,
+21,pouvoir,can,
+22,par,by,
+23,je,I,
+24,avec,with,
+25,tout,all,
+26,faire,to do,
+27,nous,we,
+28,mettre,to put,
+29,autre,other,
+30,on,one,
+31,mais,but,
+32,leur,them,
+33,comme,like,
+34,ou,or,
+35,si,if,
+36,avant,before,
+37,y,there ,
+38,dire,to say,
+39,elle,she,
+40,devoir,to have to,
+41,donner,to give,
+42,deux,two,
+43,même,same,
+44,prendre,to take ,
+45,où,where,
+46,aussi,too,
+47,celui,that,
+48,bien,well,
+49,cela,that,
+50,fois,time,une
+51,vous,you ,
+52,encore,again,
+53,vouloir,to want,
+54,nouveau,new,
+55,aller,to go,
+56,entre,between,
+57,premier,first ,
+58,aucun,none,
+59,déjà,already,
+60,grand,great,
+61,mon,my,
+62,me,me,
+63,moins,less,
+64,quelque,some ,
+65,lui,him,
+66,temps,time,un
+67,très,very,
+68,savoir,to know ,
+69,falloir,to take,
+70,voir,to see,
+71,notre,our,
+72,sans,without,
+73,dont,whose,
+74,raison,reason,une
+75,monde,world,un
+76,non,no,
+77,monsieur,mister,un
+78,an,year ,un
+79,jour,day ,un
+80,trouver,to find,
+81,demander,to ask for,
+82,alors,then,
+83,après,after,
+84,venir,to come,
+85,personne,person,une
+86,rendre,to render,
+87,part,share ,une
+88,dernier,last,
+89,lequel,which (one),
+90,pendant,during,
+91,passer,to pass,
+92,peu,little,
+93,depuis,since,
+94,suite,result,une
+95,bon,good,
+96,comprendre,to understand,
+97,rester,to stay,
+98,point,point,un
+99,ainsi,thus ,
+100,heure,hour,une
+101,année,year ,une
+102,toujours,always,
+103,tenir,to hold ,
+104,porter,to wear,
+105,parler,to speak,
+106,seul,alone,
+107,montrer,to show,
+108,là,there,
+109,certain,certain,
+110,fort,strong,
+111,tu,you ,
+112,continuer,to continue,
+113,pays,country,un
+114,fin,end,une
+115,penser,to think,
+116,lieu,place ,un
+117,partie,part,une
+118,quand,when ,
+119,trois,three,
+120,contre,against,
+121,sous,under,
+122,côté,side ,un
+123,ensemble,together,
+124,chose,thing,une
+125,enfant,child,un/une
+126,suivre,to follow ,
+127,cause,cause,une
+128,place,room,une
+129,seulement,only ,
+130,moi,me,
+131,vie,life,une
+132,politique,politics,une
+133,jusque,to,
+134,croire,to believe,
+135,homme,man,un
+136,cas,case,un
+137,connaître,to know ,
+138,commencer,to begin,
+139,compter,to count,
+140,fait,(done),un
+141,tel,such,
+142,petit,small,
+143,question,question,une
+144,donc,so,
+145,quel,what (a),
+146,général,general,
+147,entendre,to hear,
+148,beaucoup,much,
+149,chaque,each ,
+150,droit,right,un
+151,moment,moment,un
+152,travail,work ,un
+153,femme,woman,une
+154,attendre,to wait,
+155,remettre,to replace,
+156,jeune,young,
+157,permettre,to allow,
+158,occuper,to occupy,
+159,gouvernement,government,un
+160,eux,them,
+161,appeler,to call,
+162,devenir,to become,
+163,partir,to leave ,
+164,décider,to decide,
+165,soit,either...or ,
+166,ici,here,
+167,rien,nothing,
+168,plan,plan,un
+169,cours,course,un
+170,nom,name,un
+171,famille,family,une
+172,effet,effect,un
+173,affaire,business,une
+174,arriver,to arrive,
+175,servir,to serve,
+176,mois,month,un
+177,jamais,never,
+178,car,because,
+179,possible,possible ,
+180,tant,so much,
+181,vers,toward ,
+182,besoin,need,un
+183,revenir,to come back,
+184,sembler,to seem,
+185,moyen,means,un
+186,groupe,group,un
+187,problème,problem,un
+188,rapport,relationship,un
+189,dès,from,
+190,peut-être,perhaps,
+191,maintenant,now,
+192,pourquoi,why,
+193,meilleur,better,
+194,vue,view,une
+195,trop,too much,
+196,laisser,to leave ,
+197,ordre,order,un
+198,devant,in front,
+199,recevoir,to receive,
+200,répondre,to answer,
+201,long,long,
+202,service,service,un
+203,ministre,minister,un/une
+204,vivre,to live,
+205,chez,at,
+206,te,you,
+207,rappeler,to recall,
+208,face,front,une
+209,accepter,to accept,
+210,agir,to act,
+211,simple,simple,
+212,présenter,to present,
+213,votre,your ,
+214,important,important,
+215,présent,present,
+216,mieux,better ,
+217,plusieurs,several,
+218,jouer,to play,
+219,mot,word ,un
+220,reconnaître,to recognize,
+221,poser,to put,
+222,situation,situation,une
+223,offrir,to offer,
+224,près,near,
+225,force,force,une
+226,national,national,
+227,projet,project,un
+228,ni,nor,
+229,choisir,to choose,
+230,toucher,to touch,
+231,train,train,un
+232,aujourd'hui,today,
+233,comment,how,
+234,puis,then,
+235,gens,people ,des
+236,propre,clean,
+237,grâce,thanks,une
+238,idée,idea,une
+239,surtout,especially,
+240,région,region,une
+241,aimer,to like,
+242,sens,sense,un
+243,selon,according to ,
+244,semaine,week,une
+245,également,also,
+246,ci,this one,
+247,retrouver,to find,
+248,nombre,number ,un
+249,perdre,to lose,
+250,français,French,
+251,façon,way,une
+252,quatre,four,
+253,compte,account,un
+254,considérer,to consider,
+255,expliquer,to explain,
+256,ouvrir,to open,
+257,gagner,to win,
+258,exemple,example,un
+259,lorsque,when ,
+260,économique,economic,
+261,mesure,measure,une
+262,histoire,history,une
+263,ville,city ,une
+264,ensuite,next ,
+265,guerre,war,une
+266,loi,law,une
+267,président,president,un
+268,haut,top,
+269,sûr,sure,
+270,refuser,to refuse,
+271,plutôt,rather,
+272,bureau,office,un
+273,exister,to exist,
+274,quant,as for,
+275,mort,dead,
+276,mal,bad,
+277,mauvais,bad,
+278,réussir,to succeed ,
+279,marché,market,un
+280,condition,condition,une
+281,lire,to read,
+282,changer,to change,
+283,oui,yes,
+284,public,public,un
+285,humain,human,un
+286,international,international,
+287,cinq,five,
+288,système,system,un
+289,travailler,to work ,
+290,souvent,often,
+291,vrai,true ,
+292,représenter,to represent,
+293,madame,madam,une
+294,société,society,une
+295,jeu,game,un
+296,quoi,what,
+297,entreprise,enterprise,une
+298,coup,coup,un
+299,difficile,difficult,
+300,or,gold,un
+301,assurer,to assure,
+302,essayer,to try,
+303,juste,just,
+304,étranger,foreigner,un
+305,social,social,
+306,million,million,un
+307,manière,manner,une
+308,sortir,to go out,
+309,empêcher,to prevent ,
+310,terme,term,un
+311,longtemps,a long time,
+312,reprendre,to resume,
+313,prix,price,un
+314,intérêt,interest,un
+315,mener,to lead,
+316,information,information ,une
+317,courant,current ,
+318,appartenir,to belong,
+319,liberté,liberty,une
+320,assez,enough,
+321,détail,detail,un
+322,chacun,each ,
+323,concerner,to concern,
+324,maison,house,une
+325,d'abord,first of all,
+326,risquer,to risk,
+327,niveau,level,un
+328,rencontrer,to meet,
+329,ton,your ,
+330,apprendre,to learn,
+331,créer,to create,
+332,état,state,un
+333,obtenir,to get,
+334,œuvre,work,une
+335,chercher,to look for,
+336,entrer,to enter,
+337,proposer,to propose,
+338,clair,clear,
+339,programme,program,un
+340,loin,far,
+341,ligne,line,une
+342,apporter,to bring ,
+343,libre,free,
+344,utiliser,to use,
+345,atteindre,to reach,
+346,tenter,to tempt,
+347,tête,head,une
+348,enfin,at last,
+349,différent,different,
+350,sorte,sort,une
+351,cependant,however ,
+352,tard,late ,
+353,importer,to import,
+354,action,action,une
+355,relation,relationship ,une
+356,sujet,subject,un
+357,livre,book,un
+358,ajouter,to add,
+359,ailleurs,elsewhere,
+360,vraiment,truly,
+361,recherche,research,une
+362,reste,rest ,un
+363,début,beginning,un
+364,présence,presence,une
+365,doute,doubt,un
+366,produire,to produce,
+367,préparer,to prepare ,
+368,forme,form,une
+369,décision,decision,une
+370,nombreux,numerous,
+371,dix,ten,
+372,produit,product,un
+373,américain,American,
+374,rôle,role,un
+375,relever,to raise,
+376,peuple,people ,un
+377,second,second (ordinal) ,
+378,minute,minute,une
+379,prochain,next ,
+380,autant,as much,
+381,écrire,to write ,
+382,position,position,une
+383,développement,development ,un
+384,défendre,to defend,
+385,chef,head,un
+386,particulier,particular,
+387,effort,effort,un
+388,parmi,among,
+389,membre,member,un
+390,tirer,to pull,
+391,économie,economy,une
+392,beau,handsome,
+393,plein,full ,
+394,juger,to judge,
+395,éviter,to avoid,
+396,ancien,ancient,
+397,personnel,(personnel),
+398,titre,title,un
+399,soir,evening,un
+400,parti,party,un
+401,unique,unique ,
+402,souhaiter,to wish,
+403,afin,so that,
+404,objet,(objective,un
+405,malgré,despite,
+406,période,period,une
+407,engager,to hire,
+408,peine,effort,une
+409,parfois,sometimes ,
+410,lors,at the time of,
+411,sérieux,serious ,
+412,aider,to help,
+413,réaliser,to realize,
+414,terminer,to finish,
+415,base,base,une
+416,espérer,to hope,
+417,main,hand,une
+418,voix,voice,une
+419,arrêter,to stop,
+420,retour,return,un
+421,prêt,ready,
+422,occasion,chance,une
+423,gros,big ,
+424,regarder,to look,
+425,plupart,most,une
+426,deuxième,second ,
+427,résultat,result,un
+428,député,deputy,un
+429,terre,earth,une
+430,valoir,to be worth,
+431,dollar,dollar,un
+432,intérieur,interior,un
+433,écouter,to listen to,
+434,confiance,confidence,une
+435,choix,choice,un
+436,prévoir,to foresee,
+437,page,page,une
+438,notamment,notably,
+439,type,type,un
+440,but,goal,un
+441,chance,chance,une
+442,grave,serious,
+443,prise,grip,une
+444,européen,European,
+445,étude,study,une
+446,matin,morning,un
+447,remplacer,to replace,
+448,avancer,to advance,
+449,six,six,
+450,nécessaire,necessary,
+451,activité,activity,une
+452,valeur,value,une
+453,principe,principle,un
+454,entier,whole,
+455,réponse,answer,une
+456,aide,help,une
+457,marquer,to mark,
+458,élever,to grow,
+459,pourtant,yet,
+460,commission,commission,une
+461,cesser,to cease,
+462,poursuivre,to pursue,
+463,maintenir,to maintain ,
+464,principal,principal,
+465,exprimer,to express,
+466,ami,friend ,un
+467,bas,low,
+468,époque,era,une
+469,moitié,(a) half ,une
+470,avenir,future ,un
+471,argent,money,un
+472,imposer,to impose,
+473,mise,putting,une
+474,œil,eye,un
+475,eau,water,une
+476,sauf,except,
+477,école,school,une
+478,sécurité,security,une
+479,milieu,middle,un
+480,presque,almost ,
+481,attention,attention,une
+482,cadre,frame,un
+483,lettre,letter,une
+484,mouvement,movement,un
+485,former,to form,
+486,conduire,to lead,
+487,règle,rule,une
+488,poste,post,un
+489,demande,request,une
+490,futur,future ,un
+491,acte,act,un
+492,disparaître,to disappear,
+493,priver,to deprive,
+494,constituer,to constitute,
+495,centre,center,un
+496,milliard,a billion,un
+497,lier,to link,
+498,obliger,to oblige,
+499,accord,agreement,un
+500,craindre,to fear,
+501,âge,age,un
+502,déclarer,to declare ,
+503,oublier,to forget,
+504,propos,remark ,un
+505,passé,past,un
+506,quitter,to leave,
+507,bout,bit,un
+508,population,population,une
+509,troisième,third ,
+510,responsable,responsible,
+511,route,road,une
+512,tôt,early,
+513,lancer,to throw,
+514,toi,you,
+515,fonction,function,une
+516,emploi,employment,un
+517,objectif,objective,un
+518,limite,limit,une
+519,journal,newspaper,un
+520,annoncer,to announce,
+521,lui-même,himself,
+522,tour,(tower,un
+523,voilà,right,
+524,volonté,will,une
+525,envoyer,to send,
+526,paraître,to appear ,
+527,puisque,since,
+528,établir,to establish,
+529,changement,change,un
+530,garder,to keep ,
+531,partager,to share,
+532,interdire,to forbid,
+533,finir,to finish ,
+534,placer,to place,
+535,réalité,reality,une
+536,payer,to pay,
+537,esprit,mind,un
+538,domaine,domain,un
+539,diriger,to lead,
+540,sentir,to feel,
+541,nature,nature ,une
+542,régime,regime,un
+543,charger,to load,
+544,noter,to note,
+545,parent,parent,
+546,tomber,to fall ,
+547,départ,departure,un
+548,mondial,world,
+549,court,short,
+550,disposer,to arrange,
+551,parole,word ,une
+552,fond,bottom,un
+553,public,public,
+554,entraîner,to carry along,
+555,faux,false,
+556,genre,type,un
+557,communauté,community ,une
+558,intéresser,to interest,
+559,c'est-à-dire,in other words,
+560,retenir,to retain,
+561,matière,matter,une
+562,sein,breast,un
+563,difficulté,difficulty,une
+564,parvenir,to reach,
+565,corps,body,un
+566,appel,call,un
+567,cœur,heart,un
+568,père,father,un
+569,organisation,organisation,une
+570,secteur,sector,un
+571,noir,black,
+572,événement,event,un
+573,double,double,
+574,unité,unity,une
+575,nation,nation,une
+576,conseil,advice,un
+577,soutenir,to sustain,
+578,paix,peace,une
+579,convaincre,to convince,
+580,partout,everywhere,
+581,direction,direction,une
+582,manquer,to miss,
+583,actuel,current,
+584,opposer,to oppose,
+585,nuit,night,une
+586,journée,day ,une
+587,d'ailleurs,moreover,
+588,traiter,to treat,
+589,indiquer,to indicate,
+590,signifier,to mean,
+591,technique,technique,une
+592,rapidement,quickly,
+593,autour,around,
+594,réduire,to reduce,
+595,d'après,according to ,
+596,tuer,to kill,
+597,riche,rich,
+598,préférer,to prefer,
+599,rue,street,une
+600,bref,brief,
+601,violence,violence,une
+602,siècle,century,un
+603,article,article,un
+604,nommer,to call,
+605,qualité,quality,une
+606,gauche,left,
+607,solution,solution,une
+608,voie,road,une
+609,durer,to last,
+610,canadien,Canadian,
+611,erreur,mistake,une
+612,livrer,to deliver,
+613,capable,able,
+614,simplement,simply,
+615,souvenir,(memory,
+616,conséquence,consequence,une
+617,large,wide,
+618,auprès,near,
+619,succès,success ,un
+620,élément,element,un
+621,local,local,
+622,contraire,opposite,un
+623,inviter,to invite,
+624,extérieur,exterior,un
+625,pied,foot,un
+626,mission,mission,une
+627,été,summer,un
+628,fille,girl,une
+629,répéter,to repeat,
+630,texte,text,un
+631,débat,debate,un
+632,chambre,bedroom,une
+633,création,creation,une
+634,prouver,to prove,
+635,acheter,to buy,
+636,profiter,to take advantage,
+637,production,production,une
+638,ignorer,to ignore,
+639,directeur,director ,un
+640,santé,health,une
+641,justice,justice,une
+642,précis,precise,
+643,fixer,to fix,
+644,mère,mother,une
+645,croissance,growth,une
+646,risque,risk,un
+647,souffrir,to suffer,
+648,estimer,to estimate,
+649,endroit,place,un
+650,comité,committee,un
+651,impossible,impossible,
+652,arme,weapon,une
+653,véritable,real,
+654,amener,to bring,
+655,viser,to aim at/for ,
+656,retirer,to remove,
+657,preuve,proof,une
+658,image,picture,une
+659,date,date,une
+660,travers,(breadth,
+661,contrôle,control,un
+662,total,total,
+663,conserver,to keep,
+664,réel,real ,
+665,campagne,countryside,une
+666,naître,to be born,
+667,énorme,enormous,
+668,tourner,to turn,
+669,participer,to participate,
+670,vieux,old ,
+671,accorder,to grant,
+672,respecter,to respect,
+673,passage,passage,un
+674,essentiel,essential ,
+675,adopter,to adopt,
+676,rapide,fast,
+677,environ,about,
+678,expérience,experience,une
+679,admettre,to admit ,
+680,découvrir,to discover,
+681,subir,to undergo,
+682,assister,to attend,
+683,sénateur,senator,un
+684,dépasser,to pass,
+685,affirmer,to affirm,
+686,couvrir,to cover,
+687,financier,financial,
+688,processus,process ,un
+689,militaire,military,
+690,frais,cool,
+691,soumettre,to submit,
+692,industrie,industry,une
+693,apparaître,to appear ,
+694,responsabilité,responsibility,une
+695,réserver,to reserve,
+696,porte,door,une
+697,victime,victim,une
+698,territoire,territory,un
+699,pauvre,poor,
+700,taux,rate,un
+701,posséder,to possess,
+702,matériel,equipment,un
+703,cent,one hundred,un
+704,constater,to note,
+705,prononcer,to pronounce,
+706,organiser,to organize,
+707,blanc,white,
+708,origine,origin,une
+709,vendre,to sell,
+710,vite,fast,
+711,signe,sign,un
+712,dangereux,dangerous,
+713,déplacer,to move,
+714,importance,importance,une
+715,suffire,to be sufficient,
+716,espoir,hope ,un
+717,davantage,more ,
+718,langue,language,une
+719,énergie,energy,une
+720,réseau,network,un
+721,mourir,to die ,
+722,faible,weak,
+723,employer,to use,
+724,saisir,to take hold of,
+725,spécial,special,
+726,accompagner,to accompany,
+727,actuellement,at present,
+728,union,union ,une
+729,supposer,to suppose,
+730,possibilité,possibility ,une
+731,ceci,this,
+732,exiger,to require,
+733,intervenir,to intervene,
+734,fils,son,un
+735,d'accord,okay,
+736,fournir,to provide,
+737,différence,difference,une
+738,protéger,to protect,
+739,abandonner,to give up,
+740,discuter,to discuss,
+741,battre,to beat,
+742,pire,worse,
+743,adresser,to address,
+744,préciser,to state,
+745,intervention,intervention,une
+746,avis,opinion,un
+747,demeurer,to remain,
+748,chiffre,figure,un
+749,consacrer,to devote,
+750,attirer,to attract,
+751,divers,diverse,
+752,appliquer,to apply,
+753,frapper,to hit,
+754,peur,fear ,une
+755,parlement,parliament,un
+756,remplir,to fill,
+757,forcer,to force,
+758,lutte,struggle,une
+759,naturel,natural,
+760,air,air,un
+761,auteur,author,un/une
+762,fermer,to close,
+763,heureux,happy,
+764,crise,crisis,une
+765,numéro,number ,un
+766,résoudre,to solve,
+767,publier,to publish,
+768,opération,operation,une
+769,toutefois,however ,
+770,pousser,to push,
+771,quelqu'un,somebody,
+772,discours,speech,un
+773,banque,bank,une
+774,instant,instant,un
+775,reposer,to rest,
+776,opinion,opinion,une
+777,classe,class,une
+778,particulièrement,particularly ,
+779,commun,common,
+780,compagnie,company,une
+781,intention,intention,une
+782,autorité,authority,une
+783,anglais,English,
+784,échange,exchange ,un
+785,feu,fire,un
+786,satisfaire,to satisfy ,
+787,observer,to observe,
+788,capacité,capacity,une
+789,désigner,to designate,
+790,dépendre,to depend,
+791,neuf,nine,
+792,construire,to build,
+793,scène,scene,une
+794,durant,during,
+795,secret,secret,un
+796,plaisir,pleasure,un
+797,message,message,un
+798,proposition,proposition,une
+799,combien,how much,
+800,dossier,file,un
+801,absence,absence,une
+802,cher,expensive ,
+803,plaire,to please,
+804,derrière,last,
+805,connaissance,knowledge,une
+806,nul,nil,
+807,entrée,entrance,une
+808,signer,to sign,
+809,révéler,to reveal,
+810,couper,to cut,
+811,salle,room,une
+812,immédiatement,immediately,
+813,équipe,team,une
+814,situer,to situate,
+815,souligner,to underline,
+816,source,source,une
+817,pièce,piece,une
+818,crime,crime ,un
+819,précédent,precedent,
+820,installer,to install,
+821,facile,easy,
+822,augmenter,to increase,
+823,respect,respect,un
+824,impression,impression,une
+825,octobre,October,
+826,médecin,physician,un
+827,fédéral,federal,
+828,police,police,une
+829,coût,cost,un
+830,réunir,to gather,
+831,contrat,contract,un
+832,normal,normal,
+833,attitude,attitude,une
+834,série,series,une
+835,formation,training,une
+836,lever,to lift,
+837,proche,near,
+838,direct,direct,
+839,faute,mistake,une
+840,figurer,to represent,
+841,pratique,practice,une
+842,finalement,finally,
+843,allemand,German,
+844,pression,pressure,une
+845,imaginer,to imagine,
+846,champ,field,un
+847,film,film,un
+848,charge,charge,une
+849,envisager,to view,
+850,accès,access,un
+851,ressource,resource,une
+852,monter,to go up,
+853,promettre,to promise,
+854,motion,motion,une
+855,concentrer,to concentrate,
+856,commune,locality,une
+857,composer,to compose,
+858,chemin,path,un
+859,zone,zone,une
+860,province,province,une
+861,élection,election,une
+862,exactement,exactly,
+863,conflit,conflict,un
+864,hors,except,
+865,enquête,inquiry,une
+866,terrain,ground,un
+867,mars,March,
+868,tellement,so much ,
+869,usage,use,un
+870,demain,tomorrow,
+871,hier,yesterday,
+872,confier,to entrust,
+873,remarquer,to remark,
+874,égard,consideration,un
+875,supérieur,superior,
+876,espace,space ,un
+877,condamner,to condemn,
+878,capital,major,
+879,lien,link,un
+880,voiture,car ,une
+881,discussion,discussion,une
+882,huit,eight,
+883,justifier,to justify,
+884,agent,agent,un
+885,sentiment,feeling,un
+886,tâche,task ,une
+887,directement,directly,
+888,limiter,to limit ,
+889,raconter,to tell,
+890,décembre,December,
+891,développer,to develop,
+892,honorable,honorable,
+893,contact,contact,un
+894,conclure,to conclude,
+895,euh,er,
+896,ouvert,open,
+897,investissement,investment,un
+898,insister,to insist,
+899,fruit,fruit,un
+900,avantage,advantage,un
+901,historique,historical,
+902,probablement,probably,
+903,voyage,trip,un
+904,sept,seven,
+905,marche,walk,une
+906,garde,guard,un
+907,commercial,commercial,
+908,critique,(criticism,
+909,ministère,ministry,un
+910,baisser,to lower,
+911,vérité,truth,une
+912,culture,culture,une
+913,cacher,to hide,
+914,prêter,to lend,
+915,définir,to define,
+916,somme,amount,une
+917,exposer,to display,
+918,progrès,progress,un
+919,secrétaire,secretary,un/une
+920,mer,sea,une
+921,rapporter,to bring back,
+922,appuyer,to lean,
+923,client,client,un
+924,rentrer,to go in,
+925,mémoire,memory,une
+926,caractère,nature,un
+927,détruire,to destroy,
+928,civil,civil,un
+929,liste,list,une
+930,juin,June,
+931,danger,danger,un
+932,complexe,complex,
+933,commerce,commerce,un
+934,transport,transportation,un
+935,nécessité,necessity,une
+936,institution,institution,une
+937,défense,defense,une
+938,janvier,January,
+939,échapper,to escape,
+940,négociation,negotiation ,une
+941,attente,wait,une
+942,mai,May,
+943,septembre,September,
+944,environnement,environment,un
+945,séparer,to separate ,
+946,réaction,reaction,une
+947,franc,frank,
+948,positif,positive,
+949,scientifique,scientific,
+950,papier,paper,un
+951,expression,expression,une
+952,disposition,arrangement,une
+953,indépendant,independent,
+954,carte,card,une
+955,association,association,une
+956,régler,to pay,
+957,modèle,model,un
+958,protection,protection,une
+959,étudier,to study,
+960,déterminer,to determine,
+961,budget,budget,un
+962,fonder,to found,
+963,structure,structure,une
+964,commander,to order,
+965,exercer,to exercise,
+966,amour,love,un
+967,manifester,to show,
+968,menacer,to threaten,
+969,conseiller,(adviser),
+970,complet,full,
+971,opposition,opposition,une
+972,maladie,illness,une
+973,outre,besides,
+974,tandis,while,
+975,construction,construction,une
+976,bande,band,une
+977,signal,signal,un
+978,réunion,meeting ,une
+979,réforme,reform,une
+980,rejeter,to reject,
+981,novembre,November,
+982,fonds,funds,un
+983,coûter,to cost,
+984,voisin,neighbor,un
+985,presse,press,une
+986,rouge,red,
+987,majorité,majority,une
+988,autoriser,to authorize,
+989,effectuer,to carry out,
+990,reprise,resumption,une
+991,central,central,
+992,procédure,procedure ,une
+993,faveur,favor,une
+994,éducation,education,une
+995,officiel,official,
+996,document,document,un
+997,bord,edge,un
+998,retourner,to return,
+999,professionnel,professional,
+1000,aspect,aspect,un
